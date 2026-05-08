@@ -1,0 +1,39 @@
+h1 {
+    color: #660099; /* muda a cor da fonte/texto */
+    background-color: #9999ff; /* muda a cor do fundo */
+    font-size: 48px; /* muda o tamanho da fonte */
+}
+
+h2 {
+    color: #990033;
+    background-color: #6666ff;
+}
+
+.fundo-azul {
+    color: black;
+    background-color: #0099ff;
+}
+
+img {
+    width: 300px; /* muda a largura */
+    /* height: 100px; */ /* muda a altura */
+}
+
+a {
+    text-decoration: none; /* muda a decoração do texto (sublinhado) */
+    color: #0033ff;
+}
+
+button {
+    background-color: #0066ff;
+    border: 1px; /* muda a borda */
+    border-radius: 10px; /* arredonda as bordas */
+    color: black;
+    padding: 5px 15px;
+    cursor: pointer; /* muda o estilo do cursor do mouse */
+}
+
+/* aplica esse estilo quando passarmos o mouse em cima */
+button:hover {
+    background-color: #0099ff;;
+}
