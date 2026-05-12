@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+    <p>div ocupa a linha inteira, span fica na mesma linha</p>
+    
+    <hr>
+    
+    <div>div ficam uma abaixo da outra por padrão</div>
+    <div>porque o comportamento block sempre quebra a linha</div>
+
+    <hr>
+
+    <span>no começo a largura não funcionou, porque o comportamento inline não suporta width e height</span>
+    <span>...mas depois de alterar o display para inline-block o width funciona, o comportamento mudou e agora fica tudo na mesma linha</span>
+
+    <hr>
+
+    <div class="ex5"></div> <div class="ex5"></div> <div class="ex5"></div>
+
+    <hr>
+
+    <div class="ex6-1">block respeita width e height</div> <div class="ex6-2">inline ignora</div> <div class="ex6-3">inline-block também respeita width e height</div>
+
+    <hr>
+
+    <h4>abaixo desse h4 existe um div, porém ele está invisível. se ele tiver "display: none;" não deverá ocupar espaço, se tiver "visibility: hidden;" ele ainda ocupará espaço, mesmo invisível</h4>
+    <div class="ex7">eu existo, pode ver no html</div>
+
+    <hr>
+
+    <a class="ex8" href="">link 1</a> <a class="ex8" href="">link 2</a> <a class="ex8" href="">link 3</a> <a class="ex8" href="">link 4</a>
+
+    <hr>
+
+    <a class="ex9" href="">não funciona porque o a vem por padrão em inline. isso é corrigido adicionando "display: inline-block;" no css.</a>
+
+    <hr>
+
+    <p>EXERCÍCIO 10 EM OUTRO ARQUIVO</p>
+</body>
+</html>

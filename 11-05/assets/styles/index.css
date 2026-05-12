@@ -1,0 +1,58 @@
+div {
+    width: 200px;
+    background-color: gray;
+}
+
+span {
+    display: inline-block;
+    width: 200px;
+    background-color: yellow;
+}
+
+.ex5 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.ex6-1 {
+    display: block;
+    width: 150px;
+    height: 80px;
+    background-color: gray;
+}
+
+.ex6-2 {
+    display: inline;
+    width: 150px;
+    height: 80px;
+    background-color: gray;
+}
+
+.ex6-3 {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background-color: gray;
+}
+
+.ex7 {
+    visibility: hidden;
+    width: 100px;
+    height: 70px;
+    background-color: cyan;
+}
+
+.ex8 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: blue;
+}
+
+.ex9 {
+    display: inline-block;
+    width: 200px;
+    background: gray;
+}
