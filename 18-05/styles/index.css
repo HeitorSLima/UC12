@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "BetterVCR";
+    src: url("../assets/fonts/BetterVCR\ 25.09.ttf");
+}
+
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.relative {
+    background-color: lightblue;
+    padding: 10px;
+    width: fit-content;
+    position: relative;
+    margin: 20px;
+}
+
+.absolute {
+    background-color: lightsalmon;
+    padding: 1px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+}
+
+.whats {
+    width: 45px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+}
+
+.scroll {
+    height: 250px;
+    overflow-y: scroll;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.scroll h1 {
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}

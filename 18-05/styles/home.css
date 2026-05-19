@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.banner-principal {
+    /* adiciona uma imagem como fundo da div */
+    background-image: url(https://images.pexels.com/photos/16638535/pexels-photo-16638535.png?_gl=1*1cs3g6l*_ga*Njc2NDc4Mzk4LjE3NzAzMzg4MDY.*_ga_8JE65Q40S6*czE3NzkxNTA5MzgkbzIkZzEkdDE3NzkxNTA5NjUkajMzJGwwJGgw);
+    height: 500px;
+    /* ajusta a imagem para ficar contida dentro da div */
+    background-size: cover;
+    /* a imagem fica fixa mesmo quando rolamos a página, num efeito de chamamos de paralaxe */
+    background-attachment: fixed;
+}
+
+.compras {
+    padding: 10px;
+    width: fit-content;
+    position: fixed;
+    margin: 20px;
+    right: 20px;
+}
+
+.compras img {
+    width: 30px;
+}

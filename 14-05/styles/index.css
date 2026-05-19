@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ececec;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+div {
+    display: inline-block;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+}
+
+.card2 {
+    width: 350px;
+    background-color: #3f3f3f;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #999;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.card2 h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.card2 p {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.preco {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f7a1f;
+    margin-bottom: 25px;
+}
+
+.promocao {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+.card button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #244fc7;
+}
+
+.card2 button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card2 button:hover {
+    background-color: #244fc7;
+}
