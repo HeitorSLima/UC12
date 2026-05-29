@@ -45,7 +45,7 @@ btn2.addEventListener("click", () => {
 });
 
 btn3.addEventListener("click", () => {
-    // elemento.textContent server para capturar OU alterar o texto PURO de um elemento
+    // elemento.textContent serve para capturar OU alterar o texto PURO de um elemento
     /* if(texto.textContent == "Trocou!"){
         texto.textContent = "Este texto vai ser trocado";
     }else{
