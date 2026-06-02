@@ -12,47 +12,123 @@ const btn8 = document.getElementById("btn8");
 const btn9 = document.getElementById("btn9");
 
 const btnClear = document.getElementById("btnClear");
+const btnEquals = document.getElementById("btnEq");
+
+const btnSoma = document.getElementById("btnSoma");
+const btnSub = document.getElementById("btnSoub");
+const btnMulti = document.getElementById("btnMulti");
+const btnDivide = document.getElementById("btnDivide");
+
+var input = "";
+var num1 = "";
+var num2 = "";
+var calc = "";
+var answer = 0;
 
 btn0.addEventListener("click", () => {
-    disp.textContent += "0";
+    input = "0";
+    calculadora();
 });
 
 btn1.addEventListener("click", () => {
-    disp.textContent += "1";
+    input = "1";
+    calculadora();
 });
 
 btn2.addEventListener("click", () => {
-    disp.textContent += "2";
+    input = "2";
+    calculadora();
 });
 
 btn3.addEventListener("click", () => {
-    disp.textContent += "3";
+    input = "3";
+    calculadora();
 });
 
 btn4.addEventListener("click", () => {
-    disp.textContent += "4";
+    input = "4";
+    calculadora();
 });
 
 btn5.addEventListener("click", () => {
-    disp.textContent += "5";
+    input = "5";
+    calculadora();
 });
 
 btn6.addEventListener("click", () => {
-    disp.textContent += "6";
+    input = "6";
+    calculadora();
 });
 
 btn7.addEventListener("click", () => {
-    disp.textContent += "7";
+    input = "7";
+    calculadora();
 });
 
 btn8.addEventListener("click", () => {
-    disp.textContent += "8";
+    input = "8";
+    calculadora();
 });
 
 btn9.addEventListener("click", () => {
-    disp.textContent += "9";
+    input = "9";
+    calculadora();
 });
 
 btnClear.addEventListener("click", () => {
-    disp.textContent = "";
+    input = "";
+    apagarDisplay();
 });
+
+btnSoma.addEventListener("click", () => {
+    input = "+";
+    calc = "+";
+    calculadora();
+});
+
+btnSub.addEventListener("click", () => {
+    input = "-";
+    calc = "-";
+    calculadora();
+});
+
+btnMulti.addEventListener("click", () => {
+    input = "*";
+    calc = "*";
+    calculadora();
+});
+
+btnDivide.addEventListener("click", () => {
+    input = "/";
+    calc = "/";
+    calculadora();
+});
+
+btnEquals.addEventListener("click", () => {
+    input = "=";
+    calcular(int(num1), int(num2), calc);
+});
+
+function calculadora() {
+    if(calc == ""){
+        num1 += input;
+    } else {
+        num2 += input;
+    }
+
+    if(calc == "+" || calc == "-" || calc == "*" || calc == "/"){
+        disp.textContent += num2;
+        input = "";
+    }else{
+        disp.textContent += num1;
+    }
+}
+
+function apagarDisplay() {
+    input = "";
+    disp.textContent = "";
+}
+
+function calcular(n1, n2, calculo){
+
+}

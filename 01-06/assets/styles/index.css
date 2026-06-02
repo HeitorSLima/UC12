@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    color: black;
+}
+
+header {
+    background-color: #9999ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #9900ff;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*
+    aplica os estilos abaixo apenas para telas que tem ATÉ 800px
+*/
+@media(max-width: 800px){
+    .menu-desktop{
+        display: none;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: #660099;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+}
