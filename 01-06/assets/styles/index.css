@@ -42,9 +42,11 @@ a {
     .menu-mobile{
         display: flex;
         flex-direction: column;
-        background-color: #660099;
+        background-color: #9999ff;
         position: absolute;
-        top: 30px;
-        right: 0;
+        top: 100%;
+        right: 10px;
+        padding: 7px;
+        border-radius: 0 0 10px 10px;
     }
 }
