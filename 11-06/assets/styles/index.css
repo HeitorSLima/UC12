@@ -1,0 +1,26 @@
+.{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #333333;
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.container-titulo{
+    background-color: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 320px;
+}
