@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+    <main>
+        <div class="titulos">
+            <h1 class="titulo">MEMÓRIA DA COPA</h1>
+            <p class="subtitulo">Teste sua memória com os jogadores da copa do mundo!</p>
+        </div>
+
+        <div class="mostradores">
+            <div class="mostrador">
+                <h2 class="mostra_num" id="moves">0</h2>
+                <p class="mostra_texto">Jogadas</p>
+            </div>
+            <div class="mostrador">
+                <h2 class="mostra_num" id="pairs">0/6</h2>
+                <p class="mostra_texto">Pares</p>
+            </div>
+        </div>
+
+        <div class="cartas" id="board"></div>
+
+        <div class="vitoria" id="winMessage">Memória afiada! Você encontrou todos os pares!</div>
+        
+        <div class="controles">
+            <button>Novo jogo</button>
+        </div>
+    </main>
+
+    <script src="./assets/scripts/index.js"></script>
+</body>
+</html>
