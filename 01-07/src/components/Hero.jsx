@@ -23,7 +23,7 @@ function Hero({titulo, subtitulo, imagem}) {
             </div>
 
             <div className='flex-1'>
-                <img src={imagem} alt="Xícara de café" className='rounded-3xl w-full h-[420px] object-cover shadow-xl'/>
+                <img src={imagem} alt="Xícara de café especial servida na cafeteria Grão" className='rounded-3xl w-full h-[420px] object-cover shadow-xl'/>
             </div>
         </div>
     </section>
